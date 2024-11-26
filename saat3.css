@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(242, 241, 239);
+}
+
+.Anahat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    /* İlgili alanın maksimum genişliğini belirleyin */
+    overflow-x: auto;
+    padding: 50px;
+
+}
+
+.Tatiller {
+    margin-left: 30px;
+    border-radius: 47px;
+    width: 300px;
+    height: 570px;
+    background-color: azure;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+
+
+}
+
+.TatillerRenkCss {
+    color: rgb(204, 10, 207);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background: linear-gradient(90deg, #000000, #d9dd04, #042d79, #b805db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.TatilYerleriCountry {
+
+
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(90deg, #ff7e5f, #d9dd04, #042d79, #b805db, #d9dd04);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.TY1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+
+}
+
+.imgTop {
+    margin-top: 0;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+
+
+.degerlendir {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.rateYoStar {
+    padding-top: 8px;
+}
+
+.FiyatTatil1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#Yas {
+    width: 45px;
+    height: 25px;
+    font-size: 10px;
+}
+
+.Tatiller:hover {
+    transition-duration: 5s;
+    transition-property: all;
+    transform: translateZ(200px);
+    box-shadow:
+        25px 25px 25px rgba(9, 110, 121, 0.1),
+        25px 25px 25px rgba(13, 132, 138, 0.2),
+        35px 35px 35px rgb(red, green, blue);
+    /* box-shadow: 8px 5px 5px 8px rgb(40, 44, 40); */
+    scale: 1.1;
+    transform: translateX(150px);
+}
+
+.FiyatTatil2 {
+    background: linear-gradient(90deg, #ff7e5f, #d9dd04, #042d79, #b805db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.star {
+    position: absolute;
+    width: 7px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #b934db;
+    opacity: 0.8;
+    animation: moveStars 4s linear infinite;
+}
+
+
+
+
+@keyframes moveStars {
+    from {
+        transform: translateY(0) translateX(0);
+    }
+
+    to {
+        transform: translateY(100vh) translateX(100px);
+    }
+}

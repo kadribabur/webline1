@@ -1,0 +1,533 @@
+.Clock {
+     width: 150px;
+     height: 100px;
+     color: rgb(71, 131, 7);
+
+}
+
+
+
+.Duzen {
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     margin-top: 40px;
+     font-size: 30px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 38px;
+     font-weight: bold;
+     background: linear-gradient(90deg, #ff7e5f, #97fe7b, #86A8E7, #7F7FD5);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     color: transparent;
+
+}
+
+.Duzen1 {
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+     font-size: 30px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     width: 400px;
+     height: 500px;
+}
+
+.TODOAPP {
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     left: 200px;
+}
+
+.One {
+     display: flex;
+     flex-direction: column;
+     border: 3px red solid;
+     width: 320px;
+     justify-items: center;
+     align-items: center;
+     padding-right: 35px;
+     background-color: aliceblue;
+     padding-top: 5px;
+
+}
+
+.Box {
+     margin-top: 15px;
+}
+
+.APP2 {
+     display: flex;
+     flex-direction: column;
+     font-size: 15px;
+}
+
+.Box1 {
+     /* border: 3px rgb(67, 31, 98) solid; */
+     height: 30px;
+     width: 150px;
+     background-color: rgb(255, 0, 0);
+}
+
+.bi-trash {
+     margin-right: 10px;
+}
+
+.Box1_1 {
+     display: flex;
+     flex-direction: row;
+     justify-content: start;
+     left: 15px;
+     cursor: sw-resize
+}
+
+.btn {
+     text-decoration: none;
+
+}
+
+@keyframes btn_danger {
+     0% {
+          font-weight: bold;
+          background: linear-gradient(90deg, #ff7e5f, #d9dd04, #088c4e, #7e0596);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+     }
+
+     25% {
+          font-weight: bold;
+          background: linear-gradient(90deg, #ff7e5f, #13a906, #d3099a, #aedb0a);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+
+     }
+
+     50% {
+          font-weight: bold;
+          background: linear-gradient(90deg, #654137, #2acc60, #ba5716, #1e0d6a);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+
+     }
+
+     75% {
+          font-weight: bold;
+          background: linear-gradient(90deg, #25870d, #0c98a2, #088c4e, #7e0596);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+
+     }
+
+     100% {
+          font-weight: bold;
+          background: linear-gradient(90deg, #08f92c, #bb09be, #c2df0a, #dc3a0e);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          color: transparent;
+
+     }
+
+}
+
+.btn-danger {
+     margin-top: 3px;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-name: btn_danger;
+     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+
+}
+
+.MEYER1 {
+     width: 150px;
+}
+
+body {
+     background-image: url(gokyuzzu.jpg);
+     /* Arka plan resminin yolu */
+     background-size: cover;
+     /* Arka plan resmini tam ekran boyutunda yapar */
+     background-position: center;
+     /* Arka plan resmini merkeze hizalar */
+}
+
+.kadr11 {
+
+     z-index: 1;
+     position: fixed;
+     top: 0px;
+     width: 100%;
+     height: 100%;
+     display: none;
+     left: 0;
+     color: antiquewhite;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     z-index: 1;
+
+}
+
+.kadr111 {
+
+     align-items: center;
+     text-align: center;
+     width: 100%;
+     max-width: 350px;
+     margin: auto;
+     margin-top: 100px;
+     padding: 30px;
+     background-color: rgb(36, 47, 36);
+     position: relative;
+     border-radius: 30px;
+     display: none;
+     font-size: 28px;
+     font-weight: bold;
+     background: linear-gradient(90deg, #ff7e5f, #d9dd04, #042d79, #b805db);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     color: transparent;
+
+}
+
+.kadr1111 {
+     width: 300px;
+     height: 300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+
+}
+
+.APP1 {
+     font-size: 48px;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-name: btn_danger;
+     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+
+.kadr222 {
+
+     align-items: center;
+     text-align: center;
+     width: 100%;
+     max-width: 350px;
+     margin: auto;
+     margin-top: 5px;
+     padding: 30px;
+     background-color: rgb(2, 3, 2);
+     position: relative;
+     border-radius: 30px;
+     color: rgb(21, 10, 7);
+     display: block;
+
+}
+
+.LoginInsta {
+     text-decoration: none;
+     font-size: 28px;
+     font-weight: bold;
+     background: linear-gradient(90deg, #ff7e5f, #04b63f, #86A8E7, #bad57f, #b805db);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     color: transparent;
+}
+
+/* ---------------Tree column için css yeri-----------  */
+
+.kadr333 {
+
+     align-items: center;
+     text-align: center;
+     width: 100%;
+     max-width: 350px;
+     margin: auto;
+     margin-top: 100px;
+     padding: 30px;
+     background-color: rgb(36, 47, 36);
+     position: relative;
+     border-radius: 30px;
+     display: none;
+     font-size: 48px;
+
+
+}
+
+.kadr3333 {
+     width: 300px;
+     height: 300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: #08f92c
+}
+
+.BackPage1 {
+     color: rgb(231, 3, 3);
+}
+
+/* ----------------Foor Column -------------------- */
+
+.kadr444 {
+
+     align-items: center;
+     text-align: center;
+     width: 100%;
+     max-width: 900px;
+     margin: auto;
+     margin-top: 10px;
+     padding: 30px;
+     background-color: #a196d0;
+     position: relative;
+     border-radius: 30px;
+     display: none;
+     font-size: 15px;
+     color: #08f92c;
+
+
+}
+
+.kadr4444 {
+     width: 1200px;
+     height: 400px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: #08f92c;
+
+}
+
+.BackPage2 {
+     font-size: 26px;
+     color: #f30505;
+}
+
+.kadr4-1 {
+     color: #ea08d7;
+     font-size: 16px;
+     z-index: -1;
+
+}
+
+
+/*------------------------------Instagram  tools --------------------------------------  */
+
+
+.InstaTools {
+
+
+     background-color: #a196d0;
+     position: relative;
+     border-radius: 30px;
+     display: block;
+     font-size: 15px;
+     color: #08f92c;
+
+
+}
+
+.InstaTools-1 {
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: #08f92c;
+
+}
+
+
+.kadr555 {
+
+
+     text-align: center;
+     margin: auto;
+     margin-top: 5px;
+     padding: 10px;
+     background-color: #a196d0;
+     position: relative;
+     border-radius: 30px;
+     display: none;
+     font-size: 15px;
+     color: #08f92c;
+
+
+}
+
+.kadr5555 {
+     display: flex;
+     flex-direction: column;
+     justify-content: first baseline;
+     align-items: center;
+     height: 80vh;
+     width: 80vh;
+     background-image: url('hackkadr.jpg');
+     /* Arka plan resminin yolu */
+     background-size: cover;
+     /* Arka plan resmini tam ekran boyutunda yapar */
+     background-position: center;
+     /* Arka plan resmini merkeze hizalar */
+
+}
+
+.kadr5555>li {
+     padding-bottom: 4px;
+}
+
+
+/* -----------------------------------------Zphisher ---------------------------------------- */
+
+
+.kadr666 {
+
+
+     text-align: center;
+     margin: auto;
+     margin-top: 5px;
+     padding: 10px;
+     background-color: #100000;
+     position: relative;
+     border-radius: 30px;
+     display: none;
+     font-size: 15px;
+     color: #08f92c;
+
+
+}
+
+.kadr6666 {
+     display: flex;
+     flex-direction: column;
+     justify-content: first baseline;
+     align-items: center;
+     width: 80vh;
+
+
+}
+
+/* ---------------------------------Star ------------------------------- */
+
+
+
+.star {
+     position: absolute;
+     width: 12px;
+     height: 12px;
+     border-radius: 50%;
+
+     opacity: 0.8;
+     animation: moveStars 4s linear infinite;
+}
+
+.star {
+     position: absolute;
+     width: 12px;
+     height: 12px;
+     border-radius: 50%;
+     opacity: 1;
+     animation: movestarTo 3s linear infinite;
+}
+
+
+@keyframes movestarTo {
+     0% {
+          background-color: #aedb0a;
+     }
+
+     25% {
+          background-color: #ff0000;
+
+     }
+
+     50% {
+          background-color: aqua;
+     }
+
+     75% {
+          background-color: #e3e1e3;
+
+     }
+
+     100% {
+          background-color: greenyellow;
+
+     }
+
+     from {
+          transform: translateY(0) translateX(0);
+     }
+
+     to {
+          transform: translateY(100vh) translateX(100px);
+     }
+}
+
+
+
+@keyframes moveStars {
+     from {
+          transform: translateY(0) translateX(0);
+     }
+
+     to {
+          transform: translateY(100vh) translateX(100px);
+     }
+}
+
+
+/* -----------------------------------------Six Column ---------------------------------------- */
+
+
+.kadr777 {
+
+     margin: auto;
+     margin-top: 5px;
+     padding: 10px;
+
+     position: relative;
+     border-radius: 30px;
+     display: none;
+     font-size: 15px;
+     color: #08f92c;
+
+
+}
+
+.kadr7777 {
+     display: flex;
+     flex-direction: column;
+     justify-content: first baseline;
+     align-items: center;
+     width: 90vh;
+     height: 90vh;
+
+
+
+}
+
+.ul1>li {
+     padding-bottom: 3px;
+}
+
+
+/* ---------------------------------------------------  SEYEHAT  -------------------------------------------------------------- */
+

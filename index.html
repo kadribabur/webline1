@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="saat.css">
+
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            rel="stylesheet">
+    </head>
+    <body>
+        <div class="stars movestar1"></div>
+        <section>
+            <div class="Duzen">
+                <div class="Clock"></div>
+            </div>
+        </section>
+
+        <section class="TODOAPP">
+            <br>
+            <div class="Duzen1">
+                <div class="One kadr222">
+                    <div class="APP1 Box">
+                        <span>TODO APP</span>
+                    </div>
+                    <br>
+                    <div class="APP2 Box">
+                        <div class="Box MEYER1">
+                            <form>
+                                <input type="text" placeholder="search...">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="APP2 Box" style="color: bisque;">
+                        <p>Hacking:</p>
+                        <div id="taskList">
+                            <!-- --------------------------------- First Feature ----------------------------------- -->
+                            <div class="APP2_1 Box Box1 Box1_1 heee1">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-trash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"></path>
+                                    <path
+                                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"></path>
+                                </svg>
+                                <p>Temizle</p>
+                                <span></span>
+                                &#128577;
+                            </div>
+
+                            <!-- ----------------------------- Second Feature ---------------------------------- -->
+                            <div class="APP2_1 Box Box1 Box1_1 heee2">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-trash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"></path>
+                                    <path
+                                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"></path>
+                                </svg>
+                                <div class="Hackleme">Hackleme! </div>
+                                <span> </span>
+                                &#128556;
+                            </div>
+
+                            <!-- -------------------------------- Third Feature ------------------------------ -->
+                            <div class="APP2_1 Box Box1 Box1_1 heee3">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-trash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"></path>
+                                    <path
+                                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"></path>
+                                </svg>
+                                <div class="Saldiri">Saldırı ! </div>
+                                &#128544;
+                            </div>
+
+                            <!-- ----------------------------------- Fourth Feature ------------------------------------ -->
+                            <div class="APP2_1 Box Box1 Box1_1 heee4">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-trash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"></path>
+                                    <path
+                                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"></path>
+                                </svg>
+                                <div class="silahlan">
+                                    <p>Silahlan </p>
+                                </div>
+                                &#128545;
+                            </div>
+
+                            <!-- --------------------------------------------------- Fifth Feature ---------------------------------- -->
+                            <div class="APP2_1 Box Box1 Box1_1 heee5">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-trash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"></path>
+                                    <path
+                                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"></path>
+                                </svg>
+                                <div class="termux">
+                                    <p>Termux </p>
+                                </div>
+                                &#128546;
+                            </div>
+                            <br>
+
+                            <!-- ----------------------------------- Fourth Feature ------------------------------------ -->
+
+                            <div class="seyehat"
+                                style="color: burlywood;left:0px;">Seyehat</div>
+                            <div class="APP2_1 Box Box1 Box1_1 heee4">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-trash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"></path>
+                                    <path
+                                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"></path>
+                                </svg>
+                                <div class="Hotel">
+                                    <a
+                                        href="projemHtml.html"
+                                        style="text-decoration: none;">Hotel</a>
+                                </div>
+                                🏨
+                            </div>
+
+                            <!-- -------------------------------------------- Holiday -------------------------------------------------- -->
+
+                            <div class="APP2_1 Box Box1 Box1_1 heee4">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-trash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"></path>
+                                    <path
+                                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"></path>
+                                </svg>
+                                <div class="Hotel">
+                                    <a
+                                        href="saat3.html"
+                                        style="text-decoration: none;">Holiday</a>
+                                </div>
+                                🏖️
+                            </div>
+
+                            <!-- ------------------------------------------- Holiday_one ------------------------------------------------ -->
+
+                            <div class="APP2_1 Box Box1 Box1_1 heee4">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-trash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"></path>
+                                    <path
+                                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"></path>
+                                </svg>
+                                <div class="Hotel">
+                                    <a
+                                        href="saat4.html"
+                                        style="text-decoration: none;">Holiday
+                                        2</a>
+                                </div>
+                                🏖️
+                            </div>
+
+                            <!-- ------------------------------------------- Holiday_one ------------------------------------------------ -->
+
+                            <div class="APP2_1 Box Box1 Box1_1 heee4">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-trash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"></path>
+                                    <path
+                                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"></path>
+                                </svg>
+                                <div class="Hotel">
+                                    <a
+                                        href="saat5.html"
+                                        style="text-decoration: none;">Cars
+                                        2</a>
+                                </div>
+                                🚘
+                            </div>
+
+                            <div class="Python_senior"
+                                style="color: burlywood;left:0px;">
+                                <span>Python Senior</span>
+                            </div>
+
+                            <div class="APP2_1 Box Box1 Box1_1 heee4">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-trash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"></path>
+                                    <path
+                                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"></path>
+                                </svg>
+                                <div class="Python_1">
+                                    <a
+                                        href="saat6.html"
+                                        style="text-decoration: none;">Lesson
+                                        1</a>
+                                </div>
+                                🧑‍💻｡🇵‌🇾‌1
+                                <br>
+                            </div>
+
+                            <div class="APP2_1 Box Box1 Box1_1 heee4">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-trash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"></path>
+                                    <path
+                                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"></path>
+                                </svg>
+                                <div class="Python_1">
+                                    <a
+                                        href="saat6.html"
+                                        style="text-decoration: none;">Lesson
+                                        2</a>
+                                </div>
+                                🧑‍💻｡🇵‌🇾‌2
+                                <br>
+                            </div>
+
+
+                            <div class="APP2_1 Box Box1 Box1_1 heee4">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-trash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"></path>
+                                    <path
+                                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"></path>
+                                </svg>
+                                <div class="Python_1">
+                                    <a
+                                        href="python1.html"
+                                        style="text-decoration: none;">Lesson
+                                        3</a>
+                                </div>
+                                🧑‍💻｡🇵‌🇾‌3
+                                <br>
+                            </div>
+                        </div>
+                        </div>
+
+                        <br>
+                        <br>
+                        <a href="saat2.html"
+                            class="btn btn-danger">Danger</a>
+                        <!-- --------------------------------------Feature and---------------------------------------------- -->
+
+                    </div>
+                </div>
+
+                <!-- ------------------------------------------------- Second Column --------------------------------------- -->
+                <div class="Two">
+                    <div class="kadr111">
+                        <div class="kadr1111">
+                            <span>>HACK YOU TİME <</span>
+
+                            <div class="IntaTools">
+                                <div class="InstaTools-1">
+                                    <div class="LoginInsta">
+                                        <span>Instagram Tools</span>
+                                    </div>
+                                    <button type="button"
+                                        class="btn btn-danger btn-danger1">InstaTools</button>
+                                    <div class="BackPage">
+                                        <span>x</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- -------------------------------------- Tree Column --------------------------------------------- -->
+                <div class="Three">
+                    <div class="kadr333">
+                        <div class="kadr3333">
+                            <span>Siber Saldırı</span>
+                            <div>
+                                <button type="button"
+                                    class="btn btn-danger btn-danger-syber">Danger</button>
+                            </div>
+                        </div>
+                        <div class="BackPage1">
+                            <span>x</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ----------------------------------------------- Foor Column ------------------------------------ -->
+
+                <div class="kadr444">
+                    <span style="font-size: 30px;">Siber Güvenlik İle
+                        Korunma</span>
+
+                    <div class="kadr4-1">
+                        <pre>
+                            -siber güvenlik giriş dersi- 
+                                    <span style="color: blue;font-size:20px;">Temel Komutlar</span>
+                                1. cd komutu;
+                                 cd komutu ile olaşmak istedğimiz path e ve yapıya ulaşırız
+                                 örnek:
+                                    cd Desktop/mast/hard burda Desktopta mast içindeki hard klasorüne gider
+
+                                2. ls komutu;
+                                  ls komutu ile o dosyada ne var ne yok gösterir 
+                                  örnek:
+                                     ls -la gibi yada ls tek'te olur 
+                                
+                                3. sudo apt install ,sudo apt-get install,apt-get install,apt install;
+                                  sudo apt install ile indirmek istediğimiz komutu  terminal ekranında indiririz
+                                  ama root deiliz burda ve root olduktan sonrada sudo ya gerek kalmaz 
+                                  root'a geçmek için sudo su yazmamız lazım terminale 
+                                4. touch ve mkdir komutları;
+                                  touch;
+                                    touch ile dosya oluşturuz 
+                                    örnek;
+                                      touch hackfile.py  // burda hackfile  adında bir python dosyası oluşturduk
+                                  mkdir;
+                                    mkdir ile klasor oluşturuz
+                                       mkdir hackfolder // hackfolder adında bir klasorümüz olur
+                                
+                                5.cat ve nano;
+                                  cat;
+                                    cat komutu ile istedğiniz dosyayı terminalde güzükür 
+                                    örnek 
+                                       cat hack.txt   
+                                  nano;
+                                    nano ise terminalde deilde yapının kendisini açar ve kaydetme yeni bişey eklemeye yardımcı olur 
+                                    kayıt için ctrl + o  -> ctrl + x -> ctrl + No
+                                
+                                6.wine;
+                                   indirme : apt-install wine
+
+                                   exe uzantıllı dosyayı çalıştırmaya yarar 
+                                   örnek:
+                                     wine NjRAT.exe
+
+                                7.git clone;
+                                  githuptan yüklemeyi sağlar 
+                                  örnek:
+                                  git clone <a href=" https://github.com/Datalux/Osintgram.git"> https://github.com/Datalux/Osintgram.git</a>
+
+                                8.bash;
+                                  bash sh uzantılı dosyaalar için kullanılır 
+                                  phisingler <span style="color: rgb(255, 30, 0);">bash zphisher.sh </span>gibi 
+                                  chmod ise <span style="color: rgb(51, 3, 194);"> chmod + 777 </span>
+                                  sonra <span style="color: rgb(255, 0, 0);">./zphisher.sh</span> şeklinde kullanılabilir
+
+
+
+                        </pre>
+                    </div>
+
+                    ---------------------------------------- Siber Classs
+                    ---------------------------------------------
+
+                    <div class="kadr4444">
+                        <div class="Cyber_class">
+
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="BackPage2">
+                            <span>x</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Osintgram Kullanımı  -->
+
+                <div class="kadr555">
+                    <div class="kadr5555">
+                        <div>
+                            <ul>
+                                <li style="font-size:20px;">Osintgram
+                                    Kullanımı</li>
+                                <ul style="font-size: 16px;">
+                                    <li style="list-style: georgian;">
+                                        <span>git clone
+                                            https://github.com/Datalux/Osintgram.git</span>
+                                    </li>
+                                    <li style="list-style: georgian;">
+                                        <span>cd Osintgram</span>
+                                    </li>
+                                    <li style="list-style: georgian;">
+                                        <span>python3 <span
+                                                style="color:blue">-m</span>
+                                            venv venv</span>
+                                    </li>
+                                    <li style="list-style: georgian;">
+                                        <span></span>
+                                    </li>
+                                    <li style="list-style: georgian;">
+                                        <span>
+
+                                            On Windows Powershell:
+                                            .\venv\Scripts\activate.ps1
+                                            On Linux and Git Bash: source
+                                            venv/bin/activate
+
+                                        </span>
+                                    </li>
+                                    <li style="list-style: georgian;">
+                                        <span>pip install -r
+                                            requirements.txt</span>
+                                    </li>
+                                    <li style="list-style: georgian;">
+                                        <span>make setup</span>
+                                    </li>
+                                    <li style="list-style: georgian;">
+                                        <span>
+
+                                            As an interactive prompt <span
+                                                style="color: rgb(210, 222, 135);">python3
+                                                main.py target username</span>
+                                            Or execute your command straight
+                                            away <span
+                                                style="color: rgb(249, 245, 21);">python3
+                                                main.py target username
+                                                --command command</span>
+
+                                        </span>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="BackPage3">
+                    <span
+                        style="color: rgb(252, 2, 2);font-size:24px;"
+                        class="BackPage3-1">x</span>
+                </div>
+
+            </div>
+
+            <!-- ----------------------------------- Fife Column -------------------------------------------- -->
+            <div class="kadr666">
+                <div class="kadr6666">
+                    <div>
+                        <h2>Zphisher Kullanımı</h2>
+                        <span style="color: rgb(15, 213, 34);">Kali de
+                            kurulum</span>
+                        <div>
+
+                            <ul
+                                style="list-style: decimal-leading-zero;color:black">
+                                <li style="color: cornsilk;">git clone --depth=1
+                                    <a
+                                        href="https://github.com/htr-tech/zphisher.git">https://github.com/htr-tech/zphisher.git</a></li>
+                                <li style="color: cornsilk;">$ cd zphisher</li>
+                                <li style="color: cornsilk;">$ bash
+                                    zphisher.sh</li>
+
+                            </ul>
+
+                        </div>
+                        <span style="color: rgb(15, 213, 34);">Termux ta
+                            kurulum</span>
+                        <div>
+                            <ul
+                                style="list-style: decimal-leading-zero;color:black">
+                                <li style="color: cornsilk;">pkg install
+                                    tur-repo</li>
+                                <li style="color: cornsilk;">pkg install
+                                    zphisher</li>
+                                <li style="color: cornsilk;">zphisher</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div style=" color: rgb(255, 0, 0);font-size:22px"
+                    class="BackPage4">
+                    <span>x</span>
+
+                </div>
+
+                <!-- -----------------------------six column ------------------------------ -->
+
+            </div>
+
+            <div class="kadr777">
+                <div class="kadr7777">
+                    <ul class="ul1">
+                        <li
+                            style="color:cornsilk;font-size:15px;padding-left:2px;list-style: decimal-leading-zero;"><span
+                                style="color: coral;">ls </span>:Mevcut
+                            dizindeki dosya ve klasörleri listeler (ls -la,ls
+                            -a, ls -lh).
+                            <ul>
+                                <li
+                                    style="color:cornsilk;font-size:12px;word-spacing:3px;list-style:decimal-leaning-zero"><span
+                                        style="color: coral;">ls</span>: tüm
+                                    dizini
+                                    listeler</li>
+                                <li
+                                    style="color:cornsilk;font-size:12px;word-spacing:3px;list-style:decimal-leaning-zero"><span
+                                        style="color: coral;">ls -la</span>
+                                    :dizinin
+                                    önüne / işareti gelir </li>
+                                <li
+                                    style="color:cornsilk;font-size:12px;word-spacing:3px;list-style:decimal-leaning-zero"><span
+                                        style="color: coral;">ls
+                                        -lh</span>:dizinin
+                                    yapısını gösterir </li>
+                            </ul>
+                        </li>
+                        <li
+                            style="color:cornsilk;font-size:15px;padding-left:2px;list-style: decimal-leading-zero;"><span
+                                style="color: red;">cd
+                            </span>:Dizini değiştirir (cd
+                            /path/to/directory),(cd .. => geriye gitme) </li>
+                        <li
+                            style="color:cornsilk;font-size:15px;padding-left:2px;list-style: decimal-leading-zero;"><span
+                                style="color:red;">mkdir </span>
+                            <ul>
+                                <li style="color:coral;"><span
+                                        style="color:red;">mkdir </span>
+                                    kadr</li>
+                                <li
+                                    style="color:coral;"><span
+                                        style="color:red;">mkdir</span>
+                                    /data/downloads/kadr1</li>
+                            </ul>
+                        </li>
+                        <li
+                            style="color:cornsilk;font-size:15px;padding-left:2px;list-style: decimal-leading-zero;"><span
+                                style="color:red;">rmdir</span>
+                            <ul>
+                                <li style="color:coral"><span
+                                        style="color:red;">rmdr</span>
+                                    dosya_adı</li>
+                                <li style="color:coral"><span
+                                        style="color:red;">rmdr
+                                        -r</span> dizinin_adı</li>
+                            </ul>
+                        </li>
+                        <li
+                            style="color:cornsilk;font-size:15px;padding-left:2px;list-style: decimal-leading-zero;"><span
+                                style="color:red;">mv</span>
+                            <ul>
+                                <li style="color:coral;font-size:10px;"><span
+                                        style="color:red;">mv</span>
+                                    mevcut_dosya
+                                    yeni_dosya</li>
+                                <li style="color:coral;font-size:10px;"><span
+                                        style="color:red;">mv</span>
+                                    mevcut_dizin
+                                    yeni_dizin</li>
+                            </ul>
+
+                        </li>
+                        <li
+                            style="color:cornsilk;font-size:10px;padding-left:2px;list-style: decimal-leading-zero;"><span
+                                style="color:coral;">uname -a</span>: Sistem
+                            bilgilerini gösterir.
+
+                        </li>
+                        <li
+                            style="color:cornsilk;font-size:10px;padding-left:2px;list-style: decimal-leading-zero;"><span
+                                style="color:coral;">Top</span> <br>
+                            <span style="color: aqua;">pkg </span> <span
+                                style="color: brown;"> install </span> top
+
+                        </li>
+                        <li
+                            style="color:cornsilk;font-size:10px;padding-left:2px;list-style: decimal-leading-zero;"></li>
+                        <li
+                            style="color:cornsilk;font-size:10px;padding-left:2px;list-style: decimal-leading-zero;"></li>
+                        <li
+                            style="color:cornsilk;font-size:10px;padding-left:2px;list-style: decimal-leading-zero;"></li>
+                        <li
+                            style="color:cornsilk;font-size:10px;padding-left:2px;list-style: decimal-leading-zero;"></li>
+                        <li
+                            style="color:cornsilk;font-size:10px;padding-left:2px;list-style: decimal-leading-zero;"></li>
+                        <li
+                            style="color:cornsilk;font-size:10px;padding-left:2px;list-style: decimal-leading-zero;"></li>
+                        <li
+                            style="color:cornsilk;font-size:10px;padding-left:2px;list-style: decimal-leading-zero;"></li>
+                        <li
+                            style="color:cornsilk;font-size:10px;padding-left:2px;list-style: decimal-leading-zero;"></li>
+                    </ul>
+                </div>
+                <br>
+                <button type="button" class="BackPage6"
+                    style="padding-left: 3px;padding-right:3px"> X </button>
+
+            </div>
+
+            <div class="888">
+                <div class="8888">
+
+                </div>
+            </div>
+
+        </section>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz4fnFO9gybBogGz2F2B705vK4Wv+TIGFw5pI4lCAP2ZRZlxzbbMYYp1HU"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+            integrity="sha384-mQ93GaK5Xm2B8n4K5mRIrWzdoJ2Oq3SJN8mFLRI9F7Gep6l9L6lGg63C0r4zBG2x"
+            crossorigin="anonymous"></script>
+        <script src="saat.js"></script>
+    </body>
+</html>

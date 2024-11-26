@@ -1,0 +1,404 @@
+.dayNow1 {
+     background-color: rgb(190, 202, 185);
+     margin-left: 0;
+     margin-right: 0;
+     padding: 5px;
+     box-shadow: 1px 1px 1px 1px black;
+     height: 60vh;
+}
+
+.dayNow1-1-1-1-1 {
+     display: none;
+}
+
+/* .Tikla:hover .dayNow1-1-1-1-1
+ {
+   display: block;
+   color: blue;
+   font-size: 15px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+   
+ } */
+.dayNow1-1-1-1 {
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+}
+
+#Tikla {
+     align-self: center;
+     justify-content: center;
+     box-shadow: 3px 2px 3px 2px rgb(253, 253, 248), 8px 7px 8px 7px black, 11px 10px 11px 10px rgb(185, 22, 187);
+     padding: 5px;
+     border-radius: 10px;
+     width: 150px;
+     text-align: center;
+     animation-name: TiklamayaDair;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+
+}
+
+@keyframes TiklamayaDair {
+     20% {
+          scale: 1.15;
+          color: firebrick;
+          background-color: aqua;
+          border-radius: 20px;
+          padding: 18px;
+          transform: translateX(100px);
+          transition-property: all;
+     }
+
+
+     40% {
+          scale: 1.35;
+          color: rgb(87, 34, 178);
+          background-color: rgb(13, 255, 0);
+          border-radius: 20px;
+          padding: 18px;
+          transform: translateX(100px);
+          transition-property: all;
+     }
+
+
+     60% {
+          scale: 1.15;
+          color: rgb(178, 34, 147);
+          background-color: rgb(255, 17, 0);
+          border-radius: 20px;
+          padding: 18px;
+          transform: translateX(130px);
+          transition-property: all;
+     }
+
+
+
+     80% {
+          scale: 0.5;
+          color: rgb(178, 173, 34);
+          background-color: rgb(18, 231, 231);
+          border-radius: 25px;
+          padding: 19px;
+          transform: translateX(120px);
+          transition-property: all;
+     }
+
+
+
+     100% {
+          scale: 1.45;
+          color: rgb(137, 105, 105);
+          background-color: rgb(0, 255, 132);
+          border-radius: 10px;
+          padding: 18px;
+
+          transition-property: all;
+     }
+
+
+}
+
+.dayNow1-1-1-1-1 {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 28px;
+     writing-mode: horizontal-tb;
+     color: darkmagenta;
+     animation-name: daym;
+     animation-duration: 14s;
+     animation-iteration-count: infinite;
+     max-width: max-content;
+}
+
+@keyframes daym {
+     0% {
+          color: blue;
+     }
+
+     10% {
+          color: rgb(227, 227, 233);
+     }
+
+     20% {
+          color: rgb(255, 200, 0);
+     }
+
+     30% {
+          color: rgb(13, 255, 0);
+     }
+
+     40% {
+          color: rgb(232, 79, 14);
+     }
+
+     50% {
+          color: rgb(216, 9, 220);
+     }
+
+     60% {
+          color: rgb(255, 0, 132);
+     }
+
+     70% {
+          color: rgb(227, 227, 233);
+     }
+
+     80% {
+          color: rgb(255, 200, 0);
+     }
+
+     90% {
+          color: rgb(11, 232, 244);
+     }
+
+     100% {
+          color: rgb(9, 7, 7);
+     }
+
+}
+
+.dayNow2 {
+     background-color: lch(lightness chroma hue);
+     height: 100vh;
+     background-color: rgb(153, 153, 135);
+}
+
+.dayNow2-2-2-2-2 {
+     color: rgb(12, 11, 9);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.dayNow2-2-2-2-1 {
+     text-align: center;
+     font-size: 60px;
+}
+
+.dayNow2-2-2-2-0 {
+     color: cornflowerblue;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: underline;
+     text-transform: capitalize;
+
+}
+
+.dayNow3 {
+     height: 90vh;
+     background-color: antiquewhite;
+     z-index: -1;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+
+
+
+}
+
+.mp4-1 {
+     align-self: center;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: center;
+}
+
+.mp4 {
+     justify-self: center;
+     padding: 5px;
+     align-self: center;
+}
+
+.mp44 {
+     margin-top: 0px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     flex-shrink: initial;
+     justify-content: space-between;
+     justify-self: center;
+     max-width: fit-content;
+     max-height: fit-content;
+
+}
+
+.testm {
+     background-color: antiquewhite;
+     height: 110vh;
+     padding-top: 20px;
+
+}
+
+
+.testm1 {
+     display: flex;
+     flex-direction: row;
+
+     justify-content: space-between;
+     align-items: center;
+     max-width: 1600px;
+
+     /* İlgili alanın maksimum genişliğini belirleyin */
+     overflow-x: auto;
+     padding-left: 100px;
+     padding-top: 15px;
+
+
+}
+
+.evImg {
+     margin-left: 0;
+     border-top-left-radius: 39px;
+     border-top-right-radius: 39px;
+
+}
+
+.evDiv {
+     height: 480px;
+     border: double black 3px;
+     border-top-left-radius: 39px;
+     border-top-right-radius: 39px;
+     margin: 14px;
+
+}
+
+.evDiv:hover {
+
+     transition-duration: 5s;
+     scale: 1.12;
+     transition-property: all;
+     transform: ;
+     box-shadow: rgba(35, 198, 187, 0.17) 0px -23px 25px 0px inset, rgba(18, 185, 214, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.HouseName {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: start;
+
+
+
+}
+
+.StarRaiting {
+     margin-top: 0;
+     display: flex;
+     flex-direction: row;
+     font-size: 10px;
+     justify-content: space-around;
+
+}
+
+.DegerlendirmeDegeri {
+     width: 25px;
+     height: 25px;
+     border: 3px;
+     border-radius: 8px;
+     background-color: blue;
+
+     align-items: center;
+
+     justify-items: center;
+     color: aliceblue;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Degerlendir {
+     font-family: 'Times New Roman', Times, serif;
+     text-decoration: underline;
+}
+
+.HouseBuy {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: end;
+     align-items: end;
+     justify-items: end;
+     animation-name: daym1;
+     animation-duration: 12s;
+     animation-iteration-count: infinite;
+     animation-timing-function: ease-in;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     background-color: rgb(54, 55, 56);
+     border-radius: 12px;
+}
+
+.İframeHaritaX {
+     height: 80vh;
+     background-color: antiquewhite;
+}
+
+
+@keyframes daym1 {
+     0% {
+          color: blue;
+     }
+
+     10% {
+          color: rgb(227, 227, 233);
+     }
+
+     20% {
+          color: rgb(255, 200, 0);
+     }
+
+     30% {
+          color: rgb(13, 255, 0);
+     }
+
+     40% {
+          color: rgb(232, 79, 14);
+     }
+
+     50% {
+          color: rgb(216, 9, 220);
+     }
+
+     60% {
+          color: rgb(255, 0, 132);
+     }
+
+     70% {
+          color: rgb(227, 227, 233);
+     }
+
+     80% {
+          color: rgb(255, 200, 0);
+     }
+
+     90% {
+          color: rgb(11, 232, 244);
+     }
+
+     100% {
+          color: rgb(99, 85, 85);
+     }
+
+}
+
+
+.star {
+     position: absolute;
+     width: 6px;
+     height: 6px;
+     border-radius: 50%;
+     background-color: #0ece2b;
+     opacity: 0.8;
+     animation: moveStars 4s linear infinite;
+}
+
+
+
+
+@keyframes moveStars {
+     from {
+          transform: translateY(0) translateX(0);
+     }
+
+     to {
+          transform: translateY(100vh) translateX(100px);
+     }
+}

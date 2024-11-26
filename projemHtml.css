@@ -1,0 +1,835 @@
+body {
+    background-color: rgb(245, 244, 244);
+}
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(65, 38, 50);
+    padding: 6px;
+    height: 15vh;
+    align-items: center;
+    border: 3px;
+    border-color: bisque;
+    border: solid;
+    border-radius: 20px;
+}
+
+.Container1 {
+    margin-top: 25px;
+}
+
+.k1 {
+    text-decoration: none;
+    margin-right: 8px;
+    color: rgb(10, 209, 37);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px;
+    border-color: bisque;
+    border: solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.k1:hover {
+    text-decoration: underline;
+
+}
+
+.k1 {
+    animation-name: Homeday;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+.as1 {
+    color: burlywood;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@keyframes Homeday {
+    0% {
+        scale: 1.15;
+        color: chartreuse;
+        background-color: black;
+        border: rgb(39, 13, 159);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    25% {
+        scale: 1.35;
+        color: rgb(68, 147, 95);
+        background-color: rgb(237, 233, 233);
+        border: rgb(10, 8, 20);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transform: translateZ(70px);
+    }
+
+    50% {
+        scale: 1.05;
+        color: rgb(234, 240, 229);
+        background-color: rgb(16, 7, 7);
+        border: rgb(237, 11, 253);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        transform: translateY(100px);
+
+    }
+
+    75% {
+        scale: 0.50;
+        color: rgb(128, 245, 10);
+        background-color: rgb(252, 8, 8);
+        border: rgb(19, 17, 24);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        transform: translateX(50px);
+    }
+
+    100% {
+        scale: 1.50;
+        color: rgb(8, 230, 85);
+        background-color: rgb(73, 12, 241);
+        border: rgb(10, 8, 20);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transform: translateX(70px);
+    }
+}
+
+
+.Container2 {
+    display: flex;
+    justify-content: flex-start;
+    left: 0;
+}
+
+.as1:hover {
+    transition-duration: 3s;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function: ease-in;
+    transform: translateX(300px);
+    scale: 0.12;
+    display: block;
+    color: rgb(117, 117, 105);
+    transform: rotate(45deg);
+}
+
+.Cont1 {
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 20px;
+
+}
+
+.img1, .img2, .img3 {
+    border-color: rgb(220, 7, 181);
+    border: solid;
+    border: 12px 12px;
+    border-width: 5px;
+    height: 290px;
+    width: 250px;
+    margin: 4px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+
+
+}
+
+.Cont2 {
+    display: flex;
+    flex-direction: row;
+
+    flex-shrink: inherit;
+    justify-content: space-around;
+}
+
+img {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.As2 {
+    text-decoration: none;
+    text-align: center;
+    color: darkgreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-feature-settings: "abvm";
+
+}
+
+.img1:hover {
+    transform: translateZ(40px);
+    scale: 0.01;
+    transition-duration: 4s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transform: rotate(75deg);
+
+}
+
+.img2:hover {
+    transform: translateZ(40px);
+    scale: 1.25;
+    transition-duration: 4s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transform: rotate(75deg);
+
+}
+
+.img3:hover {
+    animation-name: HomeStar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes HomeStar {
+    from {
+        scale: 1.45;
+        transform: translateY(-50px);
+        background-color: aqua;
+    }
+
+    to {
+        scale: 0.50;
+        transform: translateY(50px);
+        background-color: brown;
+        text-decoration: black;
+        text-overflow: clip;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .k1 {
+        font-size: 0%;
+        width: 24px;
+        height: 1px;
+        border-radius: 10px;
+        background-color: rgb(3, 163, 178);
+        margin: 3px;
+        display: block;
+        transform: none;
+        animation: none;
+        transition: none;
+        padding-block: 1px;
+    }
+
+}
+
+.dayNow1 {
+    background-color: rgb(190, 202, 185);
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+    height: 60vh;
+}
+
+.dayNow1-1-1-1-1 {
+    display: none;
+}
+
+/* .Tikla:hover .dayNow1-1-1-1-1
+{
+  display: block;
+  color: blue;
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  
+} */
+.dayNow1-1-1-1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+#Tikla {
+    align-self: center;
+    justify-content: center;
+    box-shadow: 3px 2px 3px 2px rgb(253, 253, 248), 8px 7px 8px 7px black, 11px 10px 11px 10px rgb(185, 22, 187);
+    padding: 5px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    animation-name: TiklamayaDair;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes TiklamayaDair {
+    20% {
+        scale: 1.15;
+        color: firebrick;
+        background-color: aqua;
+        border-radius: 20px;
+        padding: 18px;
+        transform: translateX(100px);
+        transition-property: all;
+    }
+
+
+    40% {
+        scale: 1.35;
+        color: rgb(87, 34, 178);
+        background-color: rgb(13, 255, 0);
+        border-radius: 20px;
+        padding: 18px;
+        transform: translateX(100px);
+        transition-property: all;
+    }
+
+
+    60% {
+        scale: 1.15;
+        color: rgb(178, 34, 147);
+        background-color: rgb(255, 17, 0);
+        border-radius: 20px;
+        padding: 18px;
+        transform: translateX(130px);
+        transition-property: all;
+    }
+
+
+
+    80% {
+        scale: 0.5;
+        color: rgb(178, 173, 34);
+        background-color: rgb(18, 231, 231);
+        border-radius: 25px;
+        padding: 19px;
+        transform: translateX(120px);
+        transition-property: all;
+    }
+
+
+
+    100% {
+        scale: 1.45;
+        color: rgb(137, 105, 105);
+        background-color: rgb(0, 255, 132);
+        border-radius: 10px;
+        padding: 18px;
+
+        transition-property: all;
+    }
+
+
+}
+
+.dayNow1-1-1-1-1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    writing-mode: horizontal-tb;
+    color: darkmagenta;
+    animation-name: daym;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    max-width: max-content;
+}
+
+@keyframes daym {
+    0% {
+        color: blue;
+    }
+
+    10% {
+        color: rgb(227, 227, 233);
+    }
+
+    20% {
+        color: rgb(255, 200, 0);
+    }
+
+    30% {
+        color: rgb(13, 255, 0);
+    }
+
+    40% {
+        color: rgb(232, 79, 14);
+    }
+
+    50% {
+        color: rgb(216, 9, 220);
+    }
+
+    60% {
+        color: rgb(255, 0, 132);
+    }
+
+    70% {
+        color: rgb(227, 227, 233);
+    }
+
+    80% {
+        color: rgb(255, 200, 0);
+    }
+
+    90% {
+        color: rgb(11, 232, 244);
+    }
+
+    100% {
+        color: rgb(9, 7, 7);
+    }
+
+}
+
+.dayNow2 {
+    background-color: lch(lightness chroma hue);
+    height: 100vh;
+    background-color: rgb(153, 153, 135);
+}
+
+.dayNow2-2-2-2-2 {
+    color: rgb(12, 11, 9);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.dayNow2-2-2-2-1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.dayNow2-2-2-2-0 {
+    color: cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    text-transform: capitalize;
+
+}
+
+.dayNow3 {
+    height: 90vh;
+    background-color: antiquewhite;
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+
+}
+
+.mp4-1 {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.mp4 {
+    justify-self: center;
+    padding: 5px;
+    align-self: center;
+}
+
+.mp44 {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: initial;
+    justify-content: space-between;
+    justify-self: center;
+    max-width: fit-content;
+    max-height: fit-content;
+
+}
+
+.testm {
+    background-color: antiquewhite;
+    height: 100vh;
+
+}
+
+
+.testm1 {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+
+    /* İlgili alanın maksimum genişliğini belirleyin */
+    overflow-x: auto;
+    padding-left: 100px;
+
+
+}
+
+.evImg {
+    margin-left: 0;
+
+}
+
+.evDiv {
+    height: 480px;
+    border: double black 3px;
+    border-top-left-radius: 39px;
+    border-top-right-radius: 39px;
+    margin: 14px;
+
+}
+
+.evDiv:hover {
+
+    transition-duration: 5s;
+    scale: 1.12;
+    transition-property: all;
+    transform: ;
+    box-shadow: rgba(35, 198, 187, 0.17) 0px -23px 25px 0px inset, rgba(18, 185, 214, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.HouseName {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+
+
+
+}
+
+.StarRaiting {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    justify-content: space-around;
+
+}
+
+.DegerlendirmeDegeri {
+    width: 25px;
+    height: 25px;
+    border: 3px;
+    border-radius: 8px;
+    background-color: blue;
+
+    align-items: center;
+
+    justify-items: center;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Degerlendir {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.HouseBuy {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: end;
+    justify-items: end;
+    animation-name: daym1;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(54, 55, 56);
+    border-radius: 12px;
+}
+
+.İframeHaritaX {
+    height: 80vh;
+    background-color: antiquewhite;
+}
+
+
+@keyframes daym1 {
+    0% {
+        color: blue;
+    }
+
+    10% {
+        color: rgb(227, 227, 233);
+    }
+
+    20% {
+        color: rgb(255, 200, 0);
+    }
+
+    30% {
+        color: rgb(13, 255, 0);
+    }
+
+    40% {
+        color: rgb(232, 79, 14);
+    }
+
+    50% {
+        color: rgb(216, 9, 220);
+    }
+
+    60% {
+        color: rgb(255, 0, 132);
+    }
+
+    70% {
+        color: rgb(227, 227, 233);
+    }
+
+    80% {
+        color: rgb(255, 200, 0);
+    }
+
+    90% {
+        color: rgb(11, 232, 244);
+    }
+
+    100% {
+        color: rgb(99, 85, 85);
+    }
+
+}
+
+.Harita {
+    margin-left: 75px;
+}
+
+
+/*_______________________________________________Tatil mekanları________________________________________________________________*/
+
+.IconEkle {
+    background-color: rgb(235, 233, 229);
+    height: 90vh;
+}
+
+.Holidaym {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    /* İlgili alanın maksimum genişliğini belirleyin */
+    overflow-x: auto;
+    padding: 50px;
+
+}
+
+.Tatiller {
+    margin-left: 30px;
+    border-radius: 47px;
+    width: 300px;
+    height: 570px;
+    background-color: azure;
+
+
+
+}
+
+.TatillerRenkCss {
+    color: rgb(204, 10, 207);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+.TatilYerleriCountry {
+
+
+    font-size: 12px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.TY1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+
+}
+
+.imgTop {
+    margin-top: 0;
+}
+
+
+
+.degerlendir {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.rateYoStar {
+    padding-top: 8px;
+}
+
+.FiyatTatil1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#Yas {
+    width: 45px;
+    height: 25px;
+    font-size: 10px;
+}
+
+.Tatiller:hover {
+    transition-duration: 5s;
+    transition-property: all;
+    transform: translateZ(200px);
+    box-shadow:
+        15px 15px 15px rgba(9, 110, 121, 0.1),
+        15px 15px 25px rgba(13, 132, 138, 0.2);
+    /* box-shadow: 8px 5px 5px 8px rgb(40, 44, 40); */
+    scale: 0.70;
+}
+
+.Ulkeler {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 12px;
+    margin-left: 5px;
+
+}
+
+#Numaralar {
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 3px 2px rgb(39, 34, 34);
+}
+
+#Numaralar:hover {
+    transition-duration: 0.45;
+    transition-property: all;
+    transform: scale(1.25);
+    transform: rotate(180deg);
+
+}
+
+#Numaralar>option {
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px 3px rgb(225, 27, 17);
+}
+
+
+/*_____________________________________________UlKe araba satışları________________________________________________________________*/
+
+.Ulke {
+
+    height: 90vh;
+    background-color: beige;
+}
+
+
+.bi-bug-fill {
+    /* background-color: aliceblue; */
+    color: aliceblue;
+
+    animation-duration: 4s;
+    animation-name: harmdef;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+
+
+
+@keyframes harmdef {
+
+    0% {
+        /* background-color: blue; */
+        /* transform: translateZ(200px); */
+        scale: 0.45;
+        transition-property: all;
+        color: chartreuse;
+    }
+
+    25% {
+        color: burlywood;
+
+        scale: 1.25;
+
+    }
+
+    50% {
+        /* background-color: blue; */
+        /* transform: translateZ(200px); */
+        scale: 0.12;
+        transition-property: all;
+        color: rgb(241, 244, 237);
+    }
+
+    75% {
+        color: rgb(159, 154, 148);
+
+        scale: 1.65;
+
+    }
+
+    100% {
+        color: rgb(222, 4, 222);
+
+        scale: 0.45;
+
+    }
+
+
+}
+
+.DAyNOW {
+    height: 100vh;
+}
+
+.IconEkle {
+    height: 100vh;
+}
+
+.rateYoStar {
+    font-size: 12px;
+}
+
+.star {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #0ece2b;
+    opacity: 0.8;
+    animation: moveStars 4s linear infinite;
+}
+
+
+
+
+@keyframes moveStars {
+    from {
+        transform: translateY(0) translateX(0);
+    }
+
+    to {
+        transform: translateY(100vh) translateX(100px);
+    }
+}
